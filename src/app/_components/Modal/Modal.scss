@@ -1,0 +1,51 @@
+.Modal {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&-Content {
+		padding: 15px;
+		border-radius: 5px;
+		background-color: #fff;
+		animation-name: close;
+		animation-duration: 500ms;
+		animation-timing-function: ease;
+		animation-fill-mode: forwards;
+		height: 80%;
+		width: 80%;
+
+		&_active {
+			animation-name: open;
+			animation-duration: 500ms;
+			animation-timing-function: ease;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+
+@keyframes open {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes close {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(0);
+	}
+}

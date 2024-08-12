@@ -1,0 +1,27 @@
+.Header {
+	min-height: 500px;
+	padding: 55px 15px 15px;
+	background-image: url('../../../../public/image/header/winter-snow-trees-nature-outdoors-ar-3840x2400.jpg');
+	text-align: center;
+	color: var(--white);
+
+	&-Title {
+		margin-top: 50px;
+	}
+
+	&-SecondaryTitle {
+		margin-top: 30px;
+	}
+
+	&-AdvantagesList {
+		margin-top: 20px;
+	}
+
+	&-ContactForm {
+		margin-top: 30px;
+	}
+
+	&-ContactBtn {
+		font-size: var(--xxl);
+	}
+}

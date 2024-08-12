@@ -1,0 +1,22 @@
+.Menu {
+	padding-right: 25px;
+
+	&-Hamb {
+		color: var(--white);
+	}
+
+	&-HambBar {
+		display: block;
+		width: 32px;
+		height: 2px;
+		margin: 8px auto;
+		background-color: #fff;
+		transition: 0.2s;
+	}
+}
+
+@media (min-width: 1201px) {
+	.Menu {
+		display: none;
+	}
+}

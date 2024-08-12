@@ -1,0 +1,16 @@
+.Transfer {
+	padding: 15px;
+	text-align: left;
+
+	&-Wrap {
+		display: flex;
+		align-items: center;
+	}
+
+	&-Label,
+	&-Input,
+	&-Select,
+	&-TextArea {
+		display: block;
+	}
+}

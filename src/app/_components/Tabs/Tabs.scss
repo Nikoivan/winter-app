@@ -1,0 +1,15 @@
+.Tabs {
+	&-List {
+		display: flex;
+		align-items: center;
+	}
+
+	&-ItemBtn {
+		padding: 5px 10px;
+		border-radius: 5px 5px 0 0;
+
+		&_active {
+			background-color: #b4acac;
+		}
+	}
+}

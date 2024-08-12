@@ -1,0 +1,34 @@
+.Main {
+	&-Section {
+		margin-top: 45px;
+	}
+
+	&-SectionHead {
+		text-align: center;
+	}
+
+	&-SectionContent {
+		margin-top: 30px;
+		padding: 0 25px;
+	}
+
+	&-StagesList,
+	&-ServicesList,
+	&-OrdersList {
+		padding: 15px;
+	}
+
+	&-StageItem {
+		padding: 0 15px;
+	}
+
+	&-ContactItem,
+	&-ServiceItem,
+	&-OrderItem {
+		padding: 0 15px;
+	}
+
+	&-Footer {
+		text-align: center;
+	}
+}
