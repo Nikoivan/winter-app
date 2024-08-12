@@ -15,7 +15,7 @@ type MainProps = {
 
 const cnMain = cn('Main');
 
-const Main: FC<MainProps> = ({ content, children }) => (
+const Main: FC<MainProps> = ({ children }) => (
 	<main className={cnMain()}>
 		<h2>Основной контент</h2>
 		{children}

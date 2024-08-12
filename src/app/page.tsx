@@ -8,7 +8,6 @@ import Order from './_components/Order/Order';
 
 const pageTitle = 'Поездки на Ай-Петри из Симферополя Севастополя Ялты и других городов Крыма';
 
-const cnHome = cn('Home');
 const cnHeader = cn('Header');
 const cnMain = cn('Main');
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FC, PropsWithChildren, ReactNode } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
 const HelpFulLayout: FC<PropsWithChildren> = ({ children }) => (
 	<div className='Hepful-Layout'>

@@ -10,7 +10,7 @@ export type PostProps = {
 
 const cnPost = cn('Post');
 
-const Post: FC<PostProps> = ({ userId, id, title, body }) => (
+const Post: FC<PostProps> = ({ title, body }) => (
 	<li className={cnPost()}>
 		<h3 className={cnPost('Title')}>{title}</h3>
 		<p className={cnPost('Text')}>{body}</p>

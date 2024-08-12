@@ -1,6 +1,6 @@
 'use client';
 
-import { BaseSyntheticEvent, FC, useCallback } from 'react';
+import { FC } from 'react';
 import { cn } from '@bem-react/classname';
 import { IClassNameProps } from '@bem-react/core';
 
@@ -11,11 +11,7 @@ type InputProps = {
 	value: 'string | number | readonly string[] | undefined';
 } & IClassNameProps;
 
-const Input: FC<InputProps> = ({ type, value, className }) => {
-	const onChange = useCallback((e: BaseSyntheticEvent) => {
-		const { name, value } = e.target;
-	}, []);
-
+const Input: FC<InputProps> = ({ type, value }) => {
 	return (
 		<input
 			type={type}

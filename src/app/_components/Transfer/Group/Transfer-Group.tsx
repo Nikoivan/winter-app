@@ -4,7 +4,7 @@ import { BaseSyntheticEvent, FC, memo, useCallback } from 'react';
 import { cn } from '@bem-react/classname';
 
 import InfoIcon from '../../Icons/InfoIcon';
-import { GroupNames, SelectedTypes } from '@/lib/transfer/transferTypes';
+import { GroupNames } from '@/lib/transfer/transferTypes';
 import getPlacesOptions from '../transfer.utils';
 import { useAppDispatch, useAppSelector } from '@/lib/hooks';
 import Checkbox from '../../Checkbox/Checkbox';
